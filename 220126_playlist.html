@@ -5,55 +5,82 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Playlist</title>
+    <title>Music - Playlist</title>
   </head>
   <body>
-    <div class="navigation-bar">
-      <i class="fal fa-times"></i><span>Playlist</span>
-    </div>
-    <div class="current-music">
-      <!--Album picture-->
-      <span class="current-music-title">Random Love</span>
-      <span class="current-music-singer">by Divay Kapoor</span>
-    </div>
-    <div class="music-function-btn">
-      <!--Play Button-->
-      <!--Like Button-->
-      <!--Add songs Button-->
-    </div>
-    <div class="music-list">
-      <div>
-        <div class="music-poster"></div>
-        <div class="music-info">
-          <span class="music-info--title">Matargasti</span>
-          <span class="music-info--singer">Mohit Chauhan</span>
+    <main>
+      <section class="navigation-bar">
+        <div class="navigation-bar-column">
+          <i class="fas fa-times fa-2x"></i>
         </div>
-      </div>
-      <div>
-        <div class="music-poster"></div>
-        <div class="music-info">
-          <span class="music-info--title">Attitude</span>
-          <span class="music-info--singer">Lewis Of Man · Attitude</span>
+        <div class="navigation-bar-column">
+          <span>Playlist</span>
         </div>
-      </div>
-      <div>
-        <div class="music-poster"></div>
-        <div class="music-info">
-          <span class="music-info--title">Try Everthing</span>
-          <span class="music-info--singer">Shakira · Zootopia</span>
+        <div class="navigation-bar-column">
+          <div></div>
         </div>
-      </div>
-      <div>
-        <div class="music-poster"></div>
-        <div class="music-info">
-          <span class="music-info--title">Sunflower</span>
-          <span class="music-info--singer">Joseph Vincent · Sunflower</span>
+      </section>
+      <section class="current-music">
+        <div class="current-music-column">
+          <div class="current-music-image">
+            <i class="far fa-image fa-4x"></i>
+          </div>
         </div>
-      </div>
-    </div>
+        <div class="current-music-column">
+          <div class="current-music-title">
+            <span class="current-music-title--content">Random Love</span>
+          </div>
+          <div class="current-music-singer">
+            <span class="current-music-singer--content">by Divay Kapoor</span>
+          </div>
+        </div>
+      </section>
+      <section class="music-function-btn">
+        <div class="music-play-btn">
+          <i class="fas fa-play"></i>
+          <span>Play</span>
+        </div>
+        <div class="music-etc-btn">
+          <i class="fas fa-heart"></i>
+        </div>
+        <div class="music-etc-btn">
+          <i class="fas fa-plus"></i>
+        </div>
+      </section>
+      <ul class="listed-music">
+        <li class="listed-music-row">
+          <div class="listed-music-color" id="listed-music-color1"></div>
+          <div class="listed-music-content">
+            <span class="listed-music-title">Matargasti</span>
+            <span class="listed-music-singer">Mohit Chauhan </span>
+          </div>
+        </li>
+        <li class="listed-music-row">
+          <div class="listed-music-color" id="listed-music-color2"></div>
+          <div class="listed-music-content">
+            <span class="listed-music-title">Attitude</span>
+            <span class="listed-music-singer">Lewis Of Man · Attitude </span>
+          </div>
+        </li>
+        <li class="listed-music-row">
+          <div class="listed-music-color" id="listed-music-color3"></div>
+          <div class="listed-music-content">
+            <span class="listed-music-title">Try Everthing </span>
+            <span class="listed-music-singer">Shakira · Zootopia </span>
+          </div>
+        </li>
+        <li class="listed-music-row">
+          <div class="listed-music-color" id="listed-music-color4"></div>
+          <div class="listed-music-content">
+            <span class="listed-music-title">Sunflower</span>
+            <span class="listed-music-singer">Joseph Vincent · Sunflower</span>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
-  <script
-    src="https://kit.fontawesome.com/6478f529f2.js"
-    crossorigin="anonymous"
-  ></script>
 </html>
